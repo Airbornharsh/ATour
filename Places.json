@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Bhawanipatna",
+    "nameId": "bhawanipatna",
+    "placeId": "19.9074N-83.1642E"
+  },
+  {
+    "name": "Kalahandi",
+    "nameId": "kalahandi",
+    "placeId": "19.9137N-83.1649E"
+  },
+  {
+    "name": "Sambalpur",
+    "nameId": "sambalpur",
+    "placeId": "21.4669N-83.9812E"
+  },
+  {
+    "name": "Bhubaneswar",
+    "nameId": "bhubaneswar",
+    "placeId": "20.2961N-85.8245E"
+  }
+]
