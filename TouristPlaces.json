@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Phurligharan Waterfall",
+    "placeId": "19.7816N-83.1107E",
+    "cityId": "19.9074N-83.1642E",
+    "city": "bhawanipatna",
+    "district": "kalahandi",
+    "state": "odhisha",
+    "country": "India",
+    "category": "waterfall",
+    "mapLink": "https://www.google.com/maps/place/Phurlijharan+Waterfall/@19.7802253,83.1105041,17z/data=!3m1!4b1!4m5!3m4!1s0x3a24c2fa90a3db09:0x43cb5d751c84d47e!8m2!3d19.7802253!4d83.1126928",
+    "characteristics": [{ "for": "Height", "value": "45ft(15m)" }],
+    "time": {
+      "from": "New Bus Station, NH201, Naktiguda, Bhawanipatna",
+      "distance": "16km",
+      "duration": "26min"
+    },
+    "localLocation": "Located at Karpal Wildlife and Fantury, near Bhawanipatna Thamulrampur Road , Kalahandi",
+    "tollFee": {
+      "fee": 20,
+      "for": 1
+    },
+    "tarvel": ["Taxi", "Auto"],
+    "bestTime": "Oct - Feb",
+    "rules": [
+      "It is Strictly prohibited from taking Bath",
+      "There is no Picnic Spot"
+    ]
+  }
+]
