@@ -4,13 +4,15 @@ import { useNavigate } from "react-router-dom";
 import NavBar from "../Components/NavBar";
 
 const Home = () => {
-  const [cities, setCities] = useState([{ name: "" }]);
+  const [cities, setCities] = useState([]);
   const Navigate = useNavigate();
 
   useEffect(() => {
     const onLoad = async () => {
       try {
-        const citiesData = await axios.get("http://localhost:4000/cities");
+        const citiesData = await axios.get(
+          `${window.localStorage.getItem("atour-backend-uri")}/cities`
+        );
         setCities(citiesData.data);
       } catch (e) {
         console.log(e);
@@ -25,7 +27,7 @@ const Home = () => {
       <NavBar />
       <div className="flex  h-[calc(100vh-3rem)] w-[90vw] max-w-[80rem] pt-10">
         <ul>
-          {cities.map((cityData) => {
+          {cities && cities.map((cityData) => {
             return (
               <li
                 className="p-3 py-2 my-1 text-white cursor-pointer bg-slate-400"

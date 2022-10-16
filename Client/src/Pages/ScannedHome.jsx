@@ -14,10 +14,12 @@ const ScannedHome = () => {
     const onLoad = async () => {
       try {
         const cityData = await axios.get(
-          `http://localhost:4000/city/${cityId}`
+          `${window.localStorage.getItem("atour-backend-uri")}/city/${cityId}`
         );
         const touristPlacesData = await axios.get(
-          `http://localhost:4000/touristplaces/${cityId}`
+          `${window.localStorage.getItem(
+            "atour-backend-uri"
+          )}/touristplaces/${cityId}`
         );
         RefCtx.current.setCity(cityData.data);
         RefCtx.current.setPlaces(touristPlacesData.data);
